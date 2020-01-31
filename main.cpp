@@ -17,6 +17,7 @@ private:
 	heigth = h ;
 	width = w ;
 	length = l ;
+
 }
 
 
