@@ -29,6 +29,17 @@ private:
     }
 
 
+    int box_area (){
+    
+    int area = 2(heigth * width) + 2(heigth * length) + 2(length * width) ;
+    return area ;
+    
+    
+    
+    }
+
+
+
 };
 
 int main ()
