@@ -26,7 +26,7 @@ private:
 int main ()
 {
 
-
+    //instantiton of the objects
    box *box_first = new box ;
    box *box_second = new box ;
 
