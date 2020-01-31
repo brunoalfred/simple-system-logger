@@ -4,6 +4,24 @@
 
 using namespace std ;
 
+class box {
+// public attributes
+public:
+    int heigth ;
+    int width ;
+    int length ;
+
+// private attributes
+private:
+	void set_up(int h, int w, int l){
+	heigth = h ;
+	width = w ;
+	length = l ;
+}
+
+
+};
+
 int main ()
 {
 
@@ -13,7 +31,7 @@ int main ()
 
 
 
-//  The
+//  The 
 
 
 
