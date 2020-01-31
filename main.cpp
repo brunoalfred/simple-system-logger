@@ -22,6 +22,7 @@ private:
 
     int box_volume (){
     
+    //volume of a box.
     int volume = height * width * length ;
     return volume ;
     
