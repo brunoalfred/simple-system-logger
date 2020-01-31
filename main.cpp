@@ -20,6 +20,13 @@ private:
 
 }
 
+    int box_volume (){
+    
+    int volume = height * width * length ;
+    return volume ;
+    
+    }
+
 
 };
 
@@ -33,6 +40,7 @@ int main ()
    //setting value for the first box
    (*box_first).set_up(2, 3, 7) ;
 
+    
 
 
 
