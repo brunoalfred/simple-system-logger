@@ -1,3 +1,5 @@
+# CPP Project
 
-These are some of implementations i did while learning c++ basics (novice level)
-#include 
+## Sub heading
+
+These are some of implementations i did while learning c++ basics (novice level) 
