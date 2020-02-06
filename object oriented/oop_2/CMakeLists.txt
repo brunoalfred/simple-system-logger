@@ -3,4 +3,4 @@ project(oop_2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(oop_2 main.cpp Smile.cpp Smile.h)
+add_executable(oop_2 main.cpp classGrades.cpp classGrades.h)
