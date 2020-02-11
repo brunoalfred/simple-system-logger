@@ -1,5 +1,7 @@
 #include <iostream>
 
+double miles_per_gallons (int miles, int gallons)
+
 int main() {
 
 //    declaration of variables
@@ -17,11 +19,9 @@ int main() {
 
 //    handling the exception when number of gallons used is zero;
 try {
-    if (gallons == 0)
-        throw 0;
-//  performing the computation
-    mile_per_gallons = static_cast<double> (miles) / gallons ;
-    std::cout << "The result is : " << std::endl ;
+
+    double mile_per_gallons = mile_per_gallons (miles, gallons)
+    std::cout << "The result is : " << mile_per_gallons <<  std::endl ;
 
 }
 
@@ -30,5 +30,14 @@ catch (int &exe){
     std::cerr << "Can't divide by zero !" << std::endl ;
 
 }
+
+}
+
+double miles_per_gallon (int miles, int gallons)
+{
+    if (gallons == 0)
+        throw 0;
+//  performing the computation
+    return static_cast<double> (miles) / gallons ;
 
 }
