@@ -3,4 +3,4 @@ project(stackUnwinding)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(stackUnwinding main.cpp function.cpp function.h)
+add_executable(stackUnwinding main.cpp ExceptionHandlerClasses.cpp ExceptionHandlerClasses.h)
