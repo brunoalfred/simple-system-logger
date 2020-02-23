@@ -10,8 +10,8 @@ class account {
 
 public:
 //    Defining public method
-    void cash_deposite () ;
-    void cash_withdraw () ;
+    void cash_deposite (double amount) ;
+    void cash_withdraw (int amount) ;
 
 private:
 //
