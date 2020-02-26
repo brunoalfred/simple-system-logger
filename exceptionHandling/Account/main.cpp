@@ -13,7 +13,7 @@ int main() {
     std::cin >> key ;
     if (key == 1)
     {
-        void cash_deposite (amount)
+        void cash_deposite (amount) ;
         
     }
 

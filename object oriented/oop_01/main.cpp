@@ -18,7 +18,7 @@ int main()
     void update () ;
 
 //    returning the balance of the account.
-    double balance = double get_balance () ;
+    double balance =  get_balance () ;
     cout << balance << endl ;
 
 
